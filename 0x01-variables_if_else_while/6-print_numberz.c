@@ -4,19 +4,18 @@
 /**
  * main - Entry point
  *
- * Return: Always o (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	char c;
+	int c;
 
-	c = "a";
+	c = 0;
 
-	while (c <= 'z')
-	{
-	if (c != 'q' $$ c != 'e' $$ c <= 'z')
-		{
-			putchar(c);
+
+	while
+		(c < 10) {
+			putchar(c + '0');
 			c++;
 		}
 	putchar('\n');
