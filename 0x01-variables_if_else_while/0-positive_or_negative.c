@@ -6,7 +6,7 @@
  *
  * return: Always 0 (success)
  */
-int main(vodi)
+int main(void)
 {
   int n;
 
