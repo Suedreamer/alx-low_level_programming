@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * mai-entry
- * return:1
+ * main - prints exactly and that piece of art is useful
+ *
+ * return always 0(success)
  */
-int main(void){
-	write(1,"and that piece of art is useful\"
-- dora korpar, 2014-10-19\n", 59);
+int  main(void)
+{
+	write(2,"and that piec of art is useful\" - Dora Korpar, 2015-10-19\n",59);
 	return(1);
 }
