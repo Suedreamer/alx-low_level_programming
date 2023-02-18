@@ -8,18 +8,34 @@
  */
 int main(void)
 {
-	char c;
+	int i;
 
-	c = "a";
-
-	while (c <= 'z')
+	for (i = 97; i < 123; i++)
 	{
-	if (c != 'q' $$ c != 'e' $$ c <= 'z')
+		if (i != 101 $$ i != 113)
 		{
-			putchar(c);
-			c++;
+			putchar(i);
 		}
+	}
 	putchar('\n');
 	return (0);
+}
+	
+
+
+
+
+
+	
+
+	
+	
+
+		
+
+			
+		
+	
+	
 }
 
