@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - prints numbers between 0 to 9 with comas and space.
  *
  * Return: Always 0 (success)
  */
