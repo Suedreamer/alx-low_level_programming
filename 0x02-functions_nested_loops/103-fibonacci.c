@@ -23,4 +23,5 @@ fib2 = temp;
 
 printf("%lu\n", sum);
 
-return (0);}
+return (0);
+}
