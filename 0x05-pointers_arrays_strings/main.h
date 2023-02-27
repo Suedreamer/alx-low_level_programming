@@ -8,6 +8,7 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
 void print _rev(char *s);
+void rev_string(char *s);
 void puts2(char *str);
 void puts _half(char *str);
 voi print _array(int *a, int b);
