@@ -1,4 +1,4 @@
-#include "main.h"
+#include <ustd.h>
 
 /**
  * reset_to_98 - takes a pointer to a parameter and updates its value.
